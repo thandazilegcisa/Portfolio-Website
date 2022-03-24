@@ -105,6 +105,8 @@ body{
   position: relative;
   font-size: 15px;
   font-weight: 500;
+  text-decoration: none;
+  color: black;
 }
 .btn:hover {
   color: #fff;
