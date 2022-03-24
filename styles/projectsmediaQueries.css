@@ -1,0 +1,83 @@
+@media (min-width: 390px) and (max-width: 844px){
+    .portfolio-projects-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 1.245rem;
+    }
+    .portfolio-projects-container .portfolio-item .portfolio-header{
+        transform: translateX(-2.5%);
+    }
+    .portfolio-projects-container .portfolio-item img{
+        width: 82.5vw;
+    }
+    .portfolio-projects-container .portfolio-item .hover-layer{
+        width: 82.5vw;
+    }
+    .portfolio-projects-container .portfolio-item .hover-layer h3{
+        font-size: 1.015em;
+        transform: translate(-18.5vw,-20vh)
+    }
+    .portfolio-projects-container .portfolio-item .hover-layer .icons .icon i{
+        font-size: 7.85em;
+    }
+    footer{
+        margin-top: 405vh ;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 667px){
+    .portfolio-projects-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 1.245rem;
+    }
+    .portfolio-projects-container .portfolio-item .portfolio-header{
+        transform: translateX(-2.5%);
+    }
+    .portfolio-projects-container .portfolio-item img{
+        width: 82.5vw;
+    }
+    .portfolio-projects-container .portfolio-item .hover-layer{
+        width: 82.5vw;
+    }
+    .portfolio-projects-container .portfolio-item .hover-layer h3{
+        font-size: 1.015em;
+        transform: translate(-18.5vw,-20vh)
+    }
+    .portfolio-projects-container .portfolio-item .hover-layer .icons .icon i{
+        font-size: 7.85em;
+    }
+    footer{
+        margin-top: 425vh ;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 740px){
+    .portfolio-projects-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 1.245rem;
+    }
+    .portfolio-projects-container .portfolio-item .portfolio-header{
+        transform: translateX(-2.5%);
+    }
+    .portfolio-projects-container .portfolio-item img{
+        width: 82.5vw;
+    }
+    .portfolio-projects-container .portfolio-item .hover-layer{
+        width: 82.5vw;
+    }
+    .portfolio-projects-container .portfolio-item .hover-layer h3{
+        font-size: .85em;
+        transform: translate(-18.5vw,-20vh)
+    }
+    .portfolio-projects-container .portfolio-item .hover-layer .icons .icon i{
+        font-size: 7.85em;
+    }
+    footer{
+        margin-top: 460vh ;
+    }
+}

@@ -1,0 +1,134 @@
+body{
+    background-color: #40b799;
+}
+.grid-container {
+  position: relative;
+  margin-top: 225vh;
+  margin-bottom: 25vh;
+  margin-left: 15vh;
+  padding: 10px;
+  color: #fff;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.softSkils-container {
+  position: absolute;
+  top: 214%;
+  padding: 10px;
+  color: #fff;
+  opacity: 4px;
+  z-index: 1;
+}
+.details {
+  font-size: 40px;
+  color: #ed565d;
+  display: block;
+}
+
+/* Section - Content */
+
+.section-left-container {
+  transform: translate(-15%, 25%);
+}
+.section-left {
+  display: block;
+  height: 75vh;
+  width: 100%;
+  background-color: #eda127;
+  box-shadow: 0 25px 35px rgb(0, 14, 2);
+  transition: all 1s ease-in-out;
+}
+.section-left:hover {
+  cursor: default;
+  transform: translateY(-15px);
+  border: 1px solid var(--color-secondary);
+  box-shadow: 0 25px 35px rgb(0, 14, 2);
+  transition: all 0.8s ease-in-out;
+}
+.section-right {
+  background-color: #fffcc9;
+  height: 40vh;
+  transform: translate(-55%, 90%);
+  box-shadow: 0 25px 35px rgb(0, 14, 2);
+  transition: all 1s ease-in-out;
+}
+.section-right:hover {
+  cursor: default;
+  transform: translate(-45%, 80%);
+  border: 1px solid var(--color-secondary);
+  box-shadow: 0 25px 35px rgb(0, 14, 2);
+  transition: all 1s ease-in-out;
+}
+.section-right p {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding: 25px;
+}
+.section-right span {
+  color: #40b799;
+  font-weight: 700;
+  text-shadow: 2.5px 2.5px #ed565d;
+}
+
+/* Image Container */
+
+.image-container{
+  /*
+    transform: translate(-2.5%, -820.5%);
+    */
+    transform: scale(100%) translateY(-13.75vh);
+}
+
+.image-container img{
+    filter: grayscale(100%);
+}
+
+/* Donwload CV */
+
+.btn-con{
+    margin-left: 25px;
+    transform: translate(62.5%, -42.5vh);
+}
+
+.btn {
+  background: none;
+  border: 5px solid #40b799;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  min-width: 200px;
+  margin: 10px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+}
+.btn:hover {
+  color: #fff;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+.btn1::before{
+    transform: scaleX(0);
+}
+.btn1:hover::before{
+    transform: scaleX(1);
+}
+
+.icon-container i{
+  transform: translate(-225%,-2225%);
+}

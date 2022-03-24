@@ -1,0 +1,112 @@
+@media (min-width: 412px) and (max-width: 912px) {
+  .about-paragraph p {
+    font-size: 10.5px;
+  }
+  .section-two-container header {
+    font-size: 25px;
+  }
+  .section-two-icons {
+    font-size: 1em;
+    width: 300%;
+    margin-bottom: 0vh;
+    transform: translateX(5%);
+  }
+  .section-two-icons ion-icon {
+    font-size: 1.5em;
+  }
+  .section-three-container p {
+    font-size: 12.5px;
+    transform: translate(10vw, -15vh);
+  }
+  .section-four-container {
+    transform: translate(8.5vw, 105vh);
+  }
+  .section-four-container header {
+    font-size: 7.5px;
+    transform: translate(2.5px, 80px);
+  }
+  .section-four-container-first-header{
+      font-size: 4px;
+  }
+  .section-four-container header span h2 {
+    font-size: 18.5px;
+    transform: translate(10px, 5px);
+  }
+  .section-four-second-header {
+      font-size: 5px;
+  }
+  .section-four-container p{
+      font-size: .75em;
+      text-align: justify;
+      transform: translate(2.5vw,10vh);
+  }
+  .main-content-container-two {
+    height: 2.5vh;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 740px){
+    .about-paragraph p{
+        font-size: .45em;
+    }
+    .main-content-container-two{
+        transform: translateY(45%);
+    }
+    .section-two-container{
+        height: 32vh;
+    }
+    .section-two-container header{
+        font-size: .85em;
+        margin-top: 7.5vh;
+    }
+    .section-two-icons{
+        width: 100%;
+    }
+    .section-two-icons ion-icon{
+        font-size: .85em;
+        transform: translateX(-5vw);
+    }
+    .section-three-container p{
+        font-size: .65em;
+        transform: translate(10vw,-10.5vh);
+    }
+    .section-four-container {
+        width: 82.5vw;
+        transform: translate(8.5vw,32.5vh);
+    }
+    .section-four-container header h2{
+        font-size: .4em;
+    }
+    .section-four-container .section-four-second-header{
+        font-size: 1em
+    }
+    .section-four-container p{
+        text-align: justify;
+        font-size: .75em;
+    }
+    footer{
+        margin-top: 75.5vh;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 896px){
+    .section-two-container{
+        margin-top: 22.5vh;
+    }
+    .section-two-container header{
+        font-size: 1.25em;
+    }
+    .section-two-icons ion-icon{
+        font-size: 1.25em;
+        transform: translateX(38vw);
+    }
+    .section-four-container{
+        transform: translate(8.5vw,45vh);
+    }
+    .section-four-container header{
+        font-size: 2.5em;
+    }
+    footer{
+        margin-top: 82.5vh;
+    }
+}

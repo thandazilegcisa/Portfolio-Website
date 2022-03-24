@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    transform: translateY(15vh);
+}
+.main-title h2{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ED565D;
+}
+.main-title span{
+    color: aquamarine;
+}
+.main-title .bg-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFFCC9;
+    transition: all 0.4s ease-in-out;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 2.3rem;
+    opacity: .8;
+}
+.main-content-container-one{
+    width: 100%;
+    height: 45vh;
+    color: #EDA127;
+
+    /* Translate to current screen position */
+
+    transform: translate(5vw,40vh);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+}
+.main-content-container-two{
+    transform: translateY(54.5vh);
+}
+
+
+
+.about-paragraph{
+    height: 2.5vh;
+    display: flex;
+    text-align: justify;
+}
+.about-paragraph p{
+    font-size: 18.5px;
+}
+.about-section-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 64.5%;
+}
+
+
+
+.projects-completed-header{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-wrap: wrap;
+
+    overflow: hidden;
+    transform: translate(80%, -105%);
+
+    font-size: 25px;
+
+    color: #FFFCC9;
+}
+
+.projects-completed .info-box{
+    position: relative;
+    width: 35vw;
+    height: 280px;
+    background: #2E1922;
+    border-radius: 35px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+}
+
+.projects-completed .info-box .info-icon{
+    position: absolute;
+    top:0;
+    left:0px;
+    width:100%;
+    height:100%;
+    background:var(--i);
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-completed .info-box:hover .info-icon{
+    top: 0px;
+    Left: calc(50% -40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-completed .info-box .info-icon ion-icon{
+    color: white;
+    font-size: 5em;
+    transition: .5s;
+}
+.projects-completed .info-box:hover .info-icon ion-icon{
+    font-size: 2em;
+}
+
+
+/* About Section Two*/
+
+.section-two-container{
+    height: 40vh;
+    width: 80vw;
+    color: #FFFCC9;
+
+    transform: translateY(25%);
+}
+.section-two-container header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: white;
+
+    transform: translateX(13.5%);
+}
+.section-two-container header span {
+    margin-left: 15px;
+    color: #40B799;
+}
+
+.section-two-icons{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+    padding: 10px;
+    transform: translate(40vw);
+}
+.section-two-icons ion-icon{
+    font-size: 2.5em;
+    padding: 2.5px;
+}
+.section-two-icons i{
+    font-size: 2.5em;
+}
+
+/* Button Styling */
+
+.btn-con{
+    margin-left: 25px;
+    transform: translate(57.5%,-10vh);
+}
+
+.btn {
+  background: none;
+  border: 5px solid #40b799;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  min-width: 200px;
+  margin: 10px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  
+  color: white;
+  transform: translateX(-7.5px);
+}
+.btn:hover {
+  color: #fff;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+.btn1::before{
+    transform: scaleX(0);
+}
+.btn1:hover::before{
+    transform: scaleX(1);
+}
+
+/* About Section Three */
+
+.section-three-container{
+    /*
+    margin-top: 15vh;
+    */
+    width: 75vw;
+    height: 5vh;
+}
+.section-three-container p{
+    text-align: justify;
+    color:#EDA127;
+    font-size: 18.5px;
+    transform: translate(10vw,18vh);
+}
+
+/* About Section Four */
+
+.section-four-container{
+    width: 82.5vw;
+    transform: translate(8.5vw,95vh);
+}
+
+.section-four-container header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    padding: 25px;
+
+    color: white;
+}
+.section-four-container header span {
+    margin-left: 15px;
+    color: #40B799;
+}
+.section-four-container header h2{
+    font-size: 35px;
+}
+
+.section-four-second-header{
+    font-size: 5px;
+}
+
+.section-four-container .section-four-second-header{
+    font-size: 30px;
+}
+.section-four-container p{
+    font-size: 18.5px;
+    width: 75vw;
+    height: 5vh;
+    color: #EDA127;
+    transform: translateX(2.5%);
+}
+
+/* Footer */ 
+
+
+footer{
+    background-color: #eda127;
+    height: 20vh;
+    margin-top: 140.5vh;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+    padding: 5px;
+    font-size: 25px;
+    transform: translateY(80%);
+    color: #2E1922;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+strong{
+    color: #FFFCC9;
+}
+.section-two-container header h1 .vernac{
+    color: #FFFCC9;
+}
+
+
+/* Media Queries */
+

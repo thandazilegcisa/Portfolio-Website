@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+.navigation-section {
+  position: absolute;
+  z-index: 19;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  transform: translate(345%, 425%);
+  transition: all .5s ease-in-out;
+}
+.pages-navigation-section{
+    position: absolute;
+    z-index: 19;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    transform: translate(62.5vw, 180%);
+    transition: all .5s ease-in-out;
+}
+@media (min-width: 365px) and (max-width: 688px){
+  .pages-navigation-section{
+    transform: translate(40vw,180%);
+  }
+}
+@media (min-width:688px) and (max-width: 992px){
+  .pages-navigation-section{
+    transform: translate(45vw,180%);
+  }
+  
+}
+@media (min-width:992px) and (max-width: 1100px){
+  .pages-navigation-section{
+    transform: translate(58vw,180%);
+  }
+}
+@media (min-width:360px) and (max-width: 740px){
+  .pages-navigation-section{
+    transform: translate(10vw,180%);
+  }
+}
+.pages-navigation-section ul{
+    list-style: none;
+    display: flex;
+}
+.navigation-section-slide {
+  transform: translate(50vw, 425%);
+  transition: all .5s ease-in-out;
+}
+.navigation-section ul {
+  list-style: none;
+  display: flex;
+}
+.list-item a {
+  color: #eda127;
+  text-decoration: none;
+  text-align: justify;
+  padding: 25px;
+  font-size: 15.5px;
+
+}
+.list-item a:hover{
+    color:whitesmoke;  
+}
+
+.icon-container i{
+    position: absolute;
+    color: white;
+    left: 95%;
+    transform: translateY(-1625%);
+    font-size: 25px;
+    margin-right: 25px;
+}
+#github-icon{
+    padding: .5px;
+}
