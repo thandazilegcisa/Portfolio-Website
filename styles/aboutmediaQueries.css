@@ -61,6 +61,8 @@
     }
     .section-two-icons{
         width: 100%;
+        position: relative;
+        top: -35px;
     }
     .section-two-icons ion-icon{
         font-size: .85em;
@@ -68,7 +70,7 @@
     }
     .section-three-container p{
         font-size: .65em;
-        transform: translate(10vw,-10.5vh);
+        transform: translate(10vw,-5.5vh);
     }
     .section-four-container {
         width: 82.5vw;

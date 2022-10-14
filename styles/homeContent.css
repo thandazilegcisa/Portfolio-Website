@@ -33,7 +33,7 @@ body{
 }
 .section-left {
   display: block;
-  height: 75vh;
+  height:79.25vh;
   width: 100%;
   background-color: #eda127;
   box-shadow: 0 25px 35px rgb(0, 14, 2);
@@ -90,7 +90,7 @@ body{
 
 .btn-con{
     margin-left: 25px;
-    transform: translate(62.5%, -42.5vh);
+    transform: translate(62.5%, -25.5vh);
 }
 
 .btn {

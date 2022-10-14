@@ -146,6 +146,10 @@
   transform: scale(1);
 }
 
+.portfolio-item p span{
+  color:#e0cc0c
+}
+
 footer{
     background-color: #eda127;
     height: 20vh;
